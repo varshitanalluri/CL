@@ -1,0 +1,25 @@
+Basic DAX (Data Analysis Expressions) queries are simple formulas and expressions used in Power BI, Excel Power Pivot, and SQL Server Analysis Services to analyze and manipulate data. 
+DAX functions can perform calculations, create new columns and measures, and filter data. 
+
+1. Basic Arithmetic Calculations
+DAX allows you to perform basic arithmetic operations, such as addition, subtraction, multiplication, and division. 
+This is often used to create new measures or calculated columns, like total sales or profit. 
+These simple calculations help to sum up or transform individual data points across rows or columns.
+
+2. Aggregation Functions
+Aggregation functions in DAX, like sum, average, minimum, and maximum, are used to calculate a single value from a set of values in a column. 
+For example, you might use these functions to find the total revenue, the average order value, or the highest sales amount in a dataset.
+
+3. Conditional Logic
+DAX’s conditional logic, such as the “IF” function, allows you to apply custom rules to categorize data. 
+This is useful for creating new columns or measures based on conditions. 
+For example, you might categorize sales amounts as “High” or “Low” depending on a specific threshold.
+
+4. Time Functions
+Time functions in DAX simplify date-based calculations, like year-to-date, quarter-to-date, or prior-year comparisons. 
+These functions help analyze trends over time by automatically adjusting date ranges based on the current context, making it easier to compare performance over different periods.
+
+5. Using Relationships Across Tables
+The RELATED function in DAX allows calculations that pull data from related tables. 
+This is useful when working with multiple tables in a data model, as it enables you to bring in data fields from one table to another, 
+supporting calculations that span across different tables, like combining product prices with sales quantities for revenue.
