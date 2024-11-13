@@ -1,0 +1,10 @@
+Date = ADDCOLUMNS(CALENDAR(DATE(2020,1,1),DATE(2020,12,1)),"Year",YEAR([DATE]),
+"MonthNumber",MONTH([Date]),"Quater",QUARTER([Date]),"DayofWeek",WEEKDAY([Date]))
+
+In Power BI, DAX queries can create calculated tables, which are new tables generated based on DAX expressions:
+
+1) New Tables: Create standalone tables using DAX expressions, which act as independent data sources.
+2) Filtered Tables: Use functions like FILTER to include only rows meeting certain conditions, focusing on specific subsets of data.
+3) Summarized Tables: Group data with functions like SUMMARIZE or GROUPBY to create tables that display aggregate metrics (e.g., totals or averages) by category.
+4) Joins: Combine data from multiple tables using NATURALINNERJOIN or NATURALLEFTOUTERJOIN, creating merged views of data for unified analysis.
+5) These DAX techniques help build customized, context-specific tables to enhance data insights.
